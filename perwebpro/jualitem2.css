@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+}
+body{
+  background: url("gambar/45.jpg");
+  background-size: 1500px 670px;
+  background-attachment: fixed;
+}
+input{
+  font-family: verdana;
+}
+.Header{
+  width: 100%;
+  background: linear-gradient(#1247e5, #0080ff);
+  height: 120px;
+}
+.logo{
+  height: 65px;
+  float: left;
+  width: 65px;
+  margin: 30px 20px;
+}
+.Header h1{
+  float: left;
+  color: white;
+  margin: 50px 5px;
+  font-size: 25px;
+  font-family: verdana;
+}
+.obrolan{
+  float: right;
+  height: 35px;
+  width: 35px;
+  margin: 50px 400px;
+}
+.obrolan1{
+  float: right;
+  margin: -80px 300px;
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+.nama{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: -85px 980px;
+}
+.nama1{
+  float: left;
+  margin: -80px 1030px;
+  font-size: 20px;
+  font-family: verdana;
+  color: white;
+}
+.dimsy{
+  float: left;
+  margin: 0px 150px;
+}
+.dimsy2{
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin: 10px 150px;
+}
+.nama2{
+  float: left;
+  font-size: 25px;
+  font-family: verdana;
+  margin: 10px 200px;
+}
+
+.itemyg{
+  float: left;
+  font-size: 25px;
+  margin: 110px 0px;
+  font-family: verdana;
+
+}
+.itemyg1{
+  float: left;
+  font-size: 17px;
+  margin: 190px -600px;
+  font-family: verdana;
+  color: grey;
+}
+.karung{
+  float: left;
+  margin: 180px -210px;
+}
+.susu{
+  float: left;
+  margin: 180px 0px;
+}
+.tambah{
+  float: left;
+  margin: 230px -600px;
+  height: 195px;
+}
+.hargai{
+  float: left;
+  margin: 60px -600px;
+  height: 25px;
+  width: 450px;
+  border: none;
+  border-radius: 3px;
+}
+.namai{
+  float: left;
+  margin: 100px -600px;
+  height: 25px;
+  width: 450px;
+  border: none;
+  border-radius: 3px;
+}
+.stoki{
+  float: left;
+  margin: 140px -600px;
+  height: 25px;
+  width: 450px;
+  border: none;
+  border-radius: 3px;
+}
+.kirim{
+  float: left;
+  height: 30px;
+  margin: 450px -190px;
+}

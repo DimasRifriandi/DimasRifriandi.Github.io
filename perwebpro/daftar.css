@@ -1,0 +1,146 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #1247e5;
+
+}
+.sapi{
+  float: left;
+  margin: 50px 780px;
+  height: 60px;
+  width: 60px;
+}
+.peternakanku{
+  float:right;
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+  margin: -90px 360px;
+}
+.buat{
+  float:left;
+  color: white;
+  font-size: 25px;
+  font-family: verdana;
+  margin: 0px 600px;
+}
+.cepat{
+  float:left;
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+  margin: 0px 600px;
+}
+.depan{
+  float: left;
+  margin: 20px 600px;
+  width: 160px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.belakang{
+  float: left;
+  margin: -47px 775px;
+  width: 160px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.email{
+  float: left;
+  margin: -5px 600px;
+  width: 335px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.pw{
+  float: left;
+  margin: 18px 600px;
+  width: 335px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.pw1{
+  float: left;
+  margin: 0px 600px;
+  width: 335px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.tanggal{
+  float: left;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  margin:10px 600px;
+}
+.day{
+  float: left;
+  margin: 0px 600px;
+  width: 30px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.month{
+  float: left;
+  margin: -27px 640px;
+  width: 36px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.year{
+  float: left;
+  margin: -27px 690px;
+  width: 44px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.jenis{
+  float: left;
+  margin: 12px 600px;
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+}
+.laki{
+  float: left;
+  margin: 0px 600px;
+}
+.perem{
+  float: left;
+  margin: -13px 800px;
+}
+.laky{
+  float: left;
+  margin: -15px 620px;
+  color: white;
+  font-family: verdana;
+}
+.peremp{
+  float: right;
+  margin: -15px 440px;
+  color: white;
+  font-family: verdana;
+}
+.kumpul{
+  float: left;
+  margin: 30px 600px;
+  color: white;
+  font-family: verdana;
+}
+.lukisan{
+  float: left;
+  margin: -600px 0px;
+  height: 700px;
+  width: 450px;
+  position: ;
+}

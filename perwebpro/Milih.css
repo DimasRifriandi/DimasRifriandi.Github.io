@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+}
+body{
+  background: white;
+}
+input{
+  font-family: verdana;
+}
+.Header{
+  width: 100%;
+  background: linear-gradient(#1247e5, #0080ff);
+  height: 120px;
+}
+.logo{
+  height: 65px;
+  float: left;
+  width: 65px;
+  margin: 30px 20px;
+}
+.Header h1{
+  float: left;
+  color: white;
+  margin: 50px 5px;
+  font-size: 25px;
+  font-family: verdana;
+}
+.obrolan{
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin: 50px 490px;
+}
+.obrolan1{
+  float: left;
+  margin: -80px 860px;
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+.nama{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: -85px 980px;
+}
+.nama1{
+  float: left;
+  margin: -80px 1030px;
+  font-size: 20px;
+  font-family: verdana;
+  color: white;
+}
+.beranda{
+  float: left;
+  margin: -85px 1130px;
+  width: 35px;
+  height: 35px;
+}
+.beranda1{
+  float: left;
+  margin: -80px 1180px;
+  font-size: 20px;
+  font-family: verdana;
+  color: white;
+}
+.belibarang{
+  float: left;
+  width: 350px;
+  height: 190px;
+  margin: 30px 260px;
+}
+.jualbarang{
+  float:left;
+  width: 350px;
+  height: 190px;
+  margin: 30px -120px;
+}
+.bodie{
+  width: 100%;
+}
+.barbawah{
+  float: left;
+  margin: 100px 380px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js">
+
+    </script>
+    <link type="text/css" rel="stylesheet" href="masuk.css">
+    <title>Peternakanku</title>
+  </head>
+  <body>
+
+    <div class="daftar">
+      <form class=""  method="post">
+
+
+      <img class="sapi" src="gambar\sapi putih.png" alt="">
+      <p class="peternakanku">Peternakan-ku</p>
+      <h1 class="masuk">Masuk ke akun</h1>
+      <h1 class="dapat">Dapatkan kemudahan bertransaksi</h1>
+      <input class="email" type="text" name="" placeholder="No.Telp atau Email">
+      <input class="sandi" type="text" name="" placeholder="Kata sandi">
+      <a class="lppw" href="lupapw.html">Lupa Password?</a>
+      <!-- <img class="submit" src="gambar\ass.png" alt=""> -->
+      <button type="submit" name="button" class="submit">Masuk</button>
+      </form>
+      <img class="lukisan" src="gambar\df.png" alt="">
+
+    </div>
+    <script>
+    $(document).ready(function(){
+      $('form').submit(function(){
+        alert($('.depan1').val());
+      })
+    });
+    </script>
+  </body>
+</html>

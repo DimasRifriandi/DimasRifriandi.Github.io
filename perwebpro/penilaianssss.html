@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <script type="text/javascript" src="jquery.js"></script> -->
+    <title>peternakanku</title>
+    <link rel="stylesheet" type="text/css" href="penilaianssss.css">
+  </head>
+  <body>
+    <div class="Header">
+      <img class="logo" src="gambar\sapi putih.png" alt="">
+      <h1>Peternakan-ku</h1>
+        <input class="cari" type="search" name="cari" placeholder="  Cari Produk disini">
+        <div class="masuk">
+          <img src="gambar\a.png" alt="">
+        </div>
+        <div class="Daftar">
+          Dimas
+        </div>
+        <div class="obrolan1">
+          <img class="obrlan" src="gambar\email.png" alt="">
+        </div>
+        <div class="Obrolan2">
+          Obrolan
+        </div>
+        <div class="pencarian1">
+        <img class="pencarian" src="gambar\search.png" alt="">
+        </div>
+    </div>
+    <div class="bodie">
+      <img class="kambing" src="gambar\1.png" alt="">
+      <h1 class="Kambingdewasa">Kambing Dewasa</h1>
+      <div class="star1">
+      <input class="star" type= "image" src="gambar\star.png"><input class="star" type= "image" src="gambar\star.png"><input class="star" type= "image" src="gambar\star.png"><input class="star" type= "image" src="gambar\star.png"><input class="star" type= "image" src="gambar\star.png">
+      </div>
+      <p class="ulasan">Beri ulasan?</p>
+      <img class="flash" src="gambar\flash.png" alt="">
+      <img class="waktu" src="gambar\7.png" alt="">
+      <img class="hdiskon" src="gambar\hdiskon.png" alt="">
+      <p class="hasli">Rp 2.000.000</p>
+      <img class="pengiriman" src="gambar\pengiriman.png" alt="">
+      <p class="kuantitas">Kuantitas</p>
+      <div class="button">
+        <button class="kurang" type="button" name="button">-</button>
+        <button class="tambah" type="button" name="button">+</button>
+      </div>
+      <p class="satu">1</p>
+      <input class="beli" type="image" src="gambar\beli.png">
+      <a href="#" class="chatting" id="chatting">Chatting sekarang</a>
+      <img class="bbawah" src="gambar\2.jpg" alt="">
+
+    </div>
+    <div class="popup">
+      <div class="popup-content">
+        <div class="popup-header">
+          <img class="welka" src="gambar\weka.png" alt="">
+          <button type="button" id="tutup" name="button">x</button>
+          <p class="welka2">Wekastore</p>
+          <p class="welka3">Aktif 4 menit yang lalu</p>
+        </div>
+        <div class="bodypopup">
+          <input class="pesan" type="text" placeholder="   Tulis pesan ">
+          <input class="emoticon" type="image" src="gambar\12.png">
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+      document.getElementById("chatting").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "flex";
+      });
+      document.getElementById("tutup").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+      });
+
+
+
+    </script>
+
+
+  </body>
+</html>

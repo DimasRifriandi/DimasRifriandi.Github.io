@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: #1247e5;
+
+}
+.sapi{
+  float: left;
+  margin: 50px 780px;
+  height: 60px;
+  width: 60px;
+}
+.peternakanku{
+  float:right;
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+  margin: -90px 360px;
+}
+.masuk{
+  float:right;
+  color: white;
+  font-size: 25px;
+  font-family: verdana;
+  margin: 0px 545px;
+}
+.dapat{
+  float: right;
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+  margin: 5px 355px;
+  width: 400px;
+}
+.email{
+  float: left;
+  margin: 30px 595px;
+  width: 335px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+
+.sandi{
+  float: left;
+  margin: -5px 600px;
+  width: 335px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+
+.submit{
+  float: left;
+  margin: 0px 595px;
+  color: white;
+  font-family: verdana;
+  width: 160px;
+  height: 30px;
+}
+.lukisan{
+  float: left;
+  margin: -600px 0px;
+  height: 900px;
+  width: 450px;
+  position: ;
+}
+.lppw{
+  float: right;
+  margin: 35px 450px;
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+}
