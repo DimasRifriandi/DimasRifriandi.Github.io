@@ -70,7 +70,6 @@ body{
   margin: -600px 0px;
   height: 900px;
   width: 450px;
-  position: ;
 }
 .lppw{
   float: right;
@@ -78,4 +77,148 @@ body{
   color: white;
   font-size: 20px;
   font-family: verdana;
+}
+@media screen and (max-width: 847px){
+  .lukisan{
+    display: none;
+  }
+  .sapi{
+    margin-left: 275px;
+    height: 60px;
+    width: 60px;
+  }
+  .peternakanku{
+    float:right;
+    color: white;
+    font-size: 18px;
+    font-family: verdana;
+    margin-left: -20px;
+  }
+  .masuk{
+    margin: 0px 5px;
+    padding-right: 340px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: verdana;
+  }
+  .dapat{
+    left: 20px;
+    padding-right: 295px;
+    color: white;
+    font-size: 15px;
+    font-family: verdana;
+    margin: 5px 0px;
+  }
+  .email{
+    float: left;
+    margin: 20px 220px;
+    width: 335px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .sandi{
+    float: left;
+    margin: -5px 220px;
+    width: 335px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+  }
+  .lppw{
+    float: right;
+    margin: 35px 20px;
+    padding-right: 470px;
+    padding-top: 50px;
+    padding-bottom: -40px;
+    color: white;
+    font-size: 14px;
+    font-family: verdana;
+  }
+  .submit{
+    float: left;
+    margin: -60px 320px;
+    margin-top: -100px;
+    color: white;
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    background: green;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 700px){
+  .sapi{
+    margin-left: 150px;
+    height: 60px;
+    width: 60px;
+  }
+  .peternakanku{
+    color: white;
+    font-size: 18px;
+    font-family: verdana;
+    margin-right: 154px;
+  }
+  .masuk{
+    margin: 0px 5px;
+    padding-right: 138px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: verdana;
+  }
+  .dapat{
+    left: 20px;
+    padding-right: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: verdana;
+    margin: 5px 0px;
+  }
+  .email{
+    float: left;
+    margin: 20px 91px;
+    width: 335px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .sandi{
+    float: left;
+    margin: -5px 91px;
+    width: 335px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+  }
+  .lppw{
+    float: right;
+    margin: 35px 20px;
+    padding-right: 275px;
+    padding-top: 50px;
+    padding-bottom: -40px;
+    color: white;
+    font-size: 14px;
+    font-family: verdana;
+  }
+  .submit{
+    float: left;
+    margin: -60px 185px;
+    margin-top: -100px;
+    color: white;
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    background: green;
+    border-radius: 5px;
+    border: none;
+    width: 130px;
+    height: 30px;
+  }
 }
