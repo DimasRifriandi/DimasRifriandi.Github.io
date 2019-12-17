@@ -53,9 +53,17 @@ body{
 
 .submit{
   float: left;
-  margin: -55px 600px;
+  margin: -60px 600px;
   color: white;
   font-family: verdana;
+  font-size: 16px;
+  font-family: verdana;
+  font-weight: bold;
+  background: green;
+  border-radius: 5px;
+  border: none;
+  width: 130px;
+  height: 30px;
 }
 .lukisan{
   float: left;
@@ -66,7 +74,7 @@ body{
 }
 .lppw{
   float: right;
-  margin: 35px 450px;
+  margin: 35px 420px;
   color: white;
   font-size: 20px;
   font-family: verdana;

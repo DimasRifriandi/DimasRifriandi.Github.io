@@ -3,7 +3,7 @@
 }
 body{
   background: url("gambar/45.jpg");
-  background-size: 1500px 670px;
+  background-size: cover;
   background-attachment: fixed;
 }
 input{

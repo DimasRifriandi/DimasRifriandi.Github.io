@@ -135,7 +135,14 @@ body{
   float: left;
   margin: 30px 600px;
   color: white;
+  font-size: 16px;
   font-family: verdana;
+  font-weight: bold;
+  background: green;
+  border-radius: 5px;
+  border: none;
+  width: 130px;
+  height: 30px;
 }
 .lukisan{
   float: left;
@@ -143,4 +150,8 @@ body{
   height: 700px;
   width: 450px;
   position: ;
+}
+#result{
+  float: left;
+  font-size: 40px;
 }

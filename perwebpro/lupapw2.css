@@ -74,3 +74,9 @@ body{
   font-size: 20px;
   font-family: verdana;
 }
+.countdown{
+  float: left;
+  margin: -10px 595px;
+  padding: 10px;
+  color: white;
+}

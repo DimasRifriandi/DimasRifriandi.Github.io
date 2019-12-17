@@ -11,28 +11,45 @@
   <body>
 
     <div class="daftar">
-      <form class=""  method="post">
-
-
-      <img class="sapi" src="gambar\sapi putih.png" alt="">
-      <p class="peternakanku">Peternakan-ku</p>
-      <h1 class="masuk">Masuk ke akun</h1>
-      <h1 class="dapat">Dapatkan kemudahan bertransaksi</h1>
-      <input class="email" type="text" name="" placeholder="No.Telp atau Email">
-      <input class="sandi" type="text" name="" placeholder="Kata sandi">
-      <a class="lppw" href="lupapw.html">Lupa Password?</a>
+      <form action="Milih.html" name="login" onsubmit="return validationForm()">
+        <img class="sapi" src="gambar\sapi putih.png" alt="">
+        <p class="peternakanku">Peternakan-ku</p>
+        <h1 class="masuk">Masuk ke akun</h1>
+        <h1 class="dapat">Dapatkan kemudahan bertransaksi</h1>
+        <input class="email" type="text" name="txtEmail" id="txtEmail" placeholder="No.Telp atau Email" >
+        <input class="sandi" type="text" name="txtSandi" placeholder="Kata sandi"  id="passwordd">
+        <a class="lppw" href="lupapw.html">Lupa Password?</a>
       <!-- <img class="submit" src="gambar\ass.png" alt=""> -->
-      <button type="submit" name="button" class="submit">Masuk</button>
+        <button type="submit" name="button" class="submit" value="submit">Masuk</button>
       </form>
-      <img class="lukisan" src="gambar\df.png" alt="">
+        <img class="lukisan" src="gambar\df.png" alt="">
 
     </div>
-    <script>
-    $(document).ready(function(){
-      $('form').submit(function(){
-        alert($('.depan1').val());
-      })
-    });
+
+    <script type="text/javascript">
+    function validationForm(){
+      var email = document.getElementById("txtEmail").value;
+      var password = document.getElementById("passwordd").value;
+
+      if (email == "" && password =="" ){
+        alert("Email dan password masih kosong");
+        return false;
+      }
+      else if (email=="") {
+        alert("Email masih kosong")
+        return false;
+      }
+      else if (password=="") {
+        alert("Password masih kosong")
+        return false;
+      }
+
+    }
+    // $(document).ready(function(){
+    //   $('form').submit(function(){
+    //     alert($('.depan1').val());;
+    //   })
+    // });
     </script>
   </body>
 </html>

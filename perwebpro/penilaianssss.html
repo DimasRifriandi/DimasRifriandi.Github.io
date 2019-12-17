@@ -41,14 +41,17 @@
       <img class="pengiriman" src="gambar\pengiriman.png" alt="">
       <p class="kuantitas">Kuantitas</p>
       <div class="button">
-        <button class="kurang" type="button" name="button">-</button>
+        <button class="kurang" type="button" name="button" onclick="increaseNumber()">-</button>
         <button class="tambah" type="button" name="button">+</button>
       </div>
-      <p class="satu">1</p>
-      <input class="beli" type="image" src="gambar\beli.png">
+      <p type="number" class="satu" id="satuu">1</p>
+      <a href="penilaian.html"><input class="beli" type="image" src="gambar\beli.png"></a>
       <a href="#" class="chatting" id="chatting">Chatting sekarang</a>
       <img class="bbawah" src="gambar\2.jpg" alt="">
-
+      <p class="deskripsy">Hello kid zaman now,,, indahinya dunia ini apabila kita bisa memanfaatkan lingkungan dan seisinya
+        untuk hal yang bermanfaat. Alam yang Tuhan ciptakan adalah karunia yang tidak bisa kita
+        elakkan, memanfaatkan adalah ungkapn syukur atas karunianya.
+      <button id="desk">Baca Selengkapnya...</button></p>
     </div>
     <div class="popup">
       <div class="popup-content">
@@ -68,6 +71,7 @@
 
 
     <script>
+
       document.getElementById("chatting").addEventListener("click", function(){
         document.querySelector(".popup").style.display = "flex";
       });
